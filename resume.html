@@ -1,41 +1,204 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Resume</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Kadamanchi Kranthi Kumar</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            margin: 0;
+            line-height: 1.6;
+            background: #f5f5f5;
+        }
+
+        header {
+            background: #ffffff;
+            padding: 20px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        nav a {
+            margin-left: 25px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background: #fff;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .contact-info a {
+            color: #0066cc;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 14px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 8px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 4px;
+        }
+
+        ul {
+            padding-left: 18px;
+        }
+
+        ul li {
+            margin-bottom: 6px;
+        }
+
+        footer {
+            background: #ffffff;
+            border-top: 1px solid #ddd;
+            padding: 20px 60px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        @media (max-width: 768px) {
+            header, footer {
+                flex-direction: column;
+                text-align: center;
+                gap: 10px;
+            }
+        }
+    </style>
 </head>
+
 <body>
 
 <header>
-    <div class="logo">Kranthi Kumar</div>
+    <div class="logo">Kranthi</div>
     <nav>
         <a href="index.html">Home</a>
         <a href="projects.html">Projects</a>
     </nav>
 </header>
 
-<div class="page">
-    <h2>Resume</h2>
+<div class="container">
 
-    <div class="resume-section">
-        <h3>Education</h3>
-        <p>B.Tech in Computer Science – 2024</p>
+    <div class="header">
+        <h1>Kadamanchi Kranthi Kumar</h1>
     </div>
 
-    <div class="resume-section">
-        <h3>Skills</h3>
-        <p>Java, Spring Boot, MySQL, HTML, CSS, JavaScript</p>
+    <div class="contact-info">
+        <a href="mailto:kranthikumar4292@gmail.com"><i class="fas fa-envelope"></i> kranthikumar4292@gmail.com</a>
+        <a href="tel:+919553560257"><i class="fas fa-phone"></i> +91 9553560257</a>
+        <a href="https://www.linkedin.com/in/kranthi-kumar-kadamanchi-77103024a" target="_blank">
+            <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
     </div>
 
-    <div class="resume-section">
-        <h3>Experience</h3>
-        <p>Intern – Java Developer (6 months)</p>
+    <div class="section">
+        <div class="section-title"><i class="fas fa-bullseye"></i> Career Objective</div>
+        <p>
+            Dedicated engineering graduate seeking an opportunity to apply my technical
+            and problem-solving skills in a software development role.
+        </p>
     </div>
+
+    <div class="section">
+        <div class="section-title"><i class="fas fa-graduation-cap"></i> Education</div>
+        <ul>
+            <li><strong>B.Tech (CSE)</strong> – Sri Indu College of Engineering, Hyderabad (2019–2023) | CGPA: 7.24</li>
+            <li><strong>Intermediate (MPC)</strong> – Gouthami Junior College (2017–2019) | 83.40%</li>
+            <li><strong>SSC</strong> – Sri Chaitanya High School (2016–2017) | CGPA: 8.3</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <div class="section-title"><i class="fas fa-code"></i> Technical Skills</div>
+        <ul>
+            <li>Core Java, Advanced Java, JavaScript, SQL</li>
+            <li>HTML5, CSS3, JDBC, Servlets, JSP</li>
+            <li>Spring Core, Spring Boot, Hibernate, REST APIs</li>
+            <li>MySQL, Apache Tomcat, Postman</li>
+            <li>Tools: Eclipse, VS Code</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <div class="section-title"><i class="fas fa-certificate"></i> Certifications</div>
+        <ul>
+            <li>Java Programming – HackerRank</li>
+            <li>SQL – HackerRank</li>
+            <li>Java Full Stack Developer – JSpiders</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <div class="section-title"><i class="fas fa-briefcase"></i> Academic Projects</div>
+        <ul>
+            <li><strong>Weather Report Application</strong> – Real-time weather data using HTML, CSS, JavaScript & API</li>
+            <li><strong>Student Attendance Management System</strong> – Java, Spring Boot, MySQL based web application</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <div class="section-title"><i class="fas fa-user"></i> Strengths</div>
+        <ul>
+            <li>Quick learner</li>
+            <li>Hardworking</li>
+            <li>Team player</li>
+        </ul>
+    </div>
+
 </div>
 
 <footer>
-    <div>Email: yourname@gmail.com</div>
-    <div>GitHub: github.com/yourname</div>
+    <div>Email: kranthikumar4292@gmail.com</div>
+    <div>LinkedIn: <a href="https://www.linkedin.com/in/kranthi-kumar-kadamanchi-77103024a">Profile</a></div>
 </footer>
 
 </body>
